@@ -17,7 +17,7 @@ _avg = _sum / grade_list.__len__()
 print(f"avarage {_avg}")
 
 print(f"the list {grade_list}")
-grade_list.pop(9)
+grade_list.pop(-1)
 print(f"the list after pop 9 {grade_list}")
 
 _min_grade = 100
